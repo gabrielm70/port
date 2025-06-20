@@ -1,0 +1,22 @@
+/* Global variables */
+:root {
+  --black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: var(--black);
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
